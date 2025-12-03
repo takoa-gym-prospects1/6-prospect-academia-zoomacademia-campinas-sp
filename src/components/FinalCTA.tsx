@@ -9,11 +9,7 @@ const FinalCTA: React.FC = () => {
 
   return (
     <section className="py-20 bg-primary relative overflow-hidden">
-      {/* Background Image Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img src={content.images.ctaBackground} className="w-full h-full object-cover opacity-20" alt="CTA Background" />
-        <div className="absolute inset-0 bg-primary/80 mix-blend-multiply"></div>
-      </div>
+
 
       {/* Texture Overlay */}
       <div className="absolute inset-0 opacity-10 z-0" style={{ backgroundImage: 'radial-gradient(#000 1px, transparent 1px)', backgroundSize: '20px 20px' }}></div>

@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
            Mude 'bg-black/50' para aumentar ou diminuir a escuridão no celular.
            Ex: bg-black/40 (mais claro), bg-black/80 (mais escuro).
         */}
-        <div className="absolute inset-0 bg-black/70 md:hidden"></div>
+        <div className="absolute inset-0 bg-black/60 md:hidden"></div>
 
         {/* 
            AJUSTE DE OPACIDADE DO BACKGROUND (DESKTOP):
