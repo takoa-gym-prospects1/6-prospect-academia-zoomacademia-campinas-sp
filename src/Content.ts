@@ -73,17 +73,17 @@ export const content: ContentConfig = {
   // 2. SEO E METADADOS
   // ==================================================================================
   seo: {
-    title: "Academia Zoom - Começe 2026 Em Forma: Garanta Sua Matrícula Com Desconto",
+    title: "Leymar Prestes - Studio Personal Trainer - Começe 2026 Em Forma: Garanta Sua Matrícula Com Desconto",
     description: "Treinos inovadores, profissionais qualificados e um ambiente acolhedor",
     domain: "https://zoomacademia.netlify.app", // URL do site (sem barra no final)
     path: "/",
     themeColor: "#3EDDF3", // Cor do tema (barra de endereço mobile)
     keywords: "academia, musculação, fitness, saúde, treino, jiu jitsu, muay thai, fit dance, lutas, funcional, campinas, academia perto de mim",
     og: {
-      title: "Academia Zoom - Começe 2026 Em Forma: Garanta Sua Matrícula Com Desconto",
+      title: "Leymar Prestes - Studio Personal Trainer - Começe 2026 Em Forma: Garanta Sua Matrícula Com Desconto",
       description: "Treinos inovadores, profissionais qualificados e um ambiente acolhedor",
       type: "website",
-      siteName: "Academia Zoom",
+      siteName: "Leymar Prestes - Studio Personal Trainer",
       image: "/images/preview.webp", // Caminho da imagem de preview (1200x630 recomendado)
       locale: "pt_BR",
     },
@@ -96,15 +96,15 @@ export const content: ContentConfig = {
   // 3. INFORMAÇÕES BÁSICAS DA EMPRESA
   // ==================================================================================
   infos: {
-    name: "Academia Zoom",
+    name: "Leymar Prestes - Studio Personal Trainer",
     cnpj: "00.000.000/0001-00",
-    phone: "(19) 98258-4091",
-    whatsapp: "5519982584091", // Apenas números, com código do país (55) e DDD
-    email: "contato@zoomacademia.com.br",
-    address: "Rua Silvio Rizzardo, 516 - Jardim Campos Eliseos, Campinas - SP",
-    mapsLink: "https://maps.app.goo.gl/hA82W3pVDHX3RUkHA", // Link para abrir no Google Maps
+    phone: "(31) 99392-1001",
+    whatsapp: "5531993921001", // Apenas números, com código do país (55) e DDD
+    email: "contato@leymarprestes.com.br",
+    address: "R. do Ouro, 333 - Serra, Belo Horizonte - MG",
+    mapsLink: "https://maps.app.goo.gl/TT9XmdvYK1feGwxw8", // Link para abrir no Google Maps
     // Iframe do Google Maps (Copiar do Google Maps -> Compartilhar -> Incorporar um mapa)
-    mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7349.227418900164!2d-47.111385392346776!3d-22.92761471807058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c9f95f8e7e5b%3A0x2926df8c75a373b1!2sAcademia%20Zoom!5e0!3m2!1spt-BR!2sbr!4v1764723226595!5m2!1spt-BR!2sbr",
+    mapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.7509412176582!2d-43.92543802401456!3d-19.934897538462483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa6999568769f41%3A0xb9d1928ddd984b22!2sLEYMAR%20PRESTES%20-%20Studio%20Personal%20Trainer!5e0!3m2!1spt-BR!2sbr!4v1764960911428!5m2!1spt-BR!2sbr",
   },
 
   // ==================================================================================
@@ -132,8 +132,8 @@ export const content: ContentConfig = {
   // --- NAVBAR ---
   navbar: {
     enabled: true,
-    logoText: "ACADEMIA ",
-    logoTextHighlight: "ZOOM",
+    logoText: "LEYMAR PRESTES ",
+    logoTextHighlight: "STUDIO PERSONAL TRAINER",
     ctaButtonText: "Matricule-se",
     menuItems: [
       { label: 'Início', href: '#hero' },
@@ -147,7 +147,7 @@ export const content: ContentConfig = {
   // --- HERO SECTION (Principal) ---
   hero: {
     enabled: true,
-    badge: "Jd. Campos Eliseos, Campinas/SP", //Nova unidade aberta"
+    badge: "Serra - Belo Horizonte/MG", //Nova unidade aberta"
     headline: {
       part1: "TRANSFORME SEU CORPO,", // Primeira linha
       part2: "RENOVE SUA",            // Segunda linha
@@ -182,7 +182,7 @@ export const content: ContentConfig = {
         icon: Users
       },
       {
-        value: "Desde 2003",
+        value: "Desde 2024",
         label: "Transformando Vidas",
         icon: Calendar
       }
@@ -342,9 +342,9 @@ export const content: ContentConfig = {
     enabled: true,
     headline: "LOCALIZAÇÃO",
     hours: [
-      { label: "Seg - Sex", time: "06:00 - 22:00" },
-      { label: "Sáb", time: "08:00 - 13:00" },
-      { label: "Dom - Fer", time: "08:00 - 12:00" }
+      { label: "Seg - Qui", time: "06:00 - 21:00" },
+      { label: "Sex", time: "06:00 - 20:00" },
+      { label: "Sab - Dom", time: "Fechado" }
     ],
     facilities: [
       { icon: Wifi, text: "Wi-Fi Grátis" },
@@ -452,9 +452,9 @@ export const content: ContentConfig = {
     enabled: true,
     description: "Treine melhor, evolua mais, sinta a diferença. Aqui, resultado não é promessa — é processo.",
     socialLinks: {
-      instagram: "https://www.instagram.com/academiazoom_",
-      facebook: "https://www.facebook.com/p/academiazoom",
-      youtube: "https://youtube.com/academiazoom"
+      instagram: "https://www.instagram.com/lppt.studio",
+      facebook: "https://www.facebook.com/leymarprestes.spt",
+      youtube: "https://youtube.com/lppt.studio"
     },
     quickLinks: [
       { label: 'Início', href: '#hero' },
