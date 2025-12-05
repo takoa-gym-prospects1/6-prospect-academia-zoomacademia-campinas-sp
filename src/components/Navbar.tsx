@@ -18,8 +18,9 @@ const Navbar: React.FC = () => {
             {/* If logo image exists, use it, else icon */}
             <Dumbbell className="text-primary-contrast w-6 h-6 group-hover:text-primary transition-colors" />
           </div>
-          <span className="font-display font-bold text-2xl tracking-tighter text-white">
-            {content.navbar.logoText}<span className="text-primary">{content.navbar.logoTextHighlight}</span>
+          <span className="font-display font-bold text-2xl tracking-tighter text-white flex flex-col md:block">
+            <span>{content.navbar.logoText}</span>
+            <span className="text-primary">{content.navbar.logoTextHighlight}</span>
           </span>
         </a>
 
